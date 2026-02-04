@@ -6,7 +6,7 @@ st.set_page_config(page_title="Flipkart Sentiment Analyzer", layout="centered")
 st.title("Flipkart Product Review Sentiment Analyzer")
 st.write("Enter a product review to analyze sentiment.")
 
-API_URL = "http://127.0.0.1:8000/predict"  # local FastAPI
+API_URL = "http://16.171.139.197:8000/predict"
 
 review_text = st.text_area("Review Text", placeholder="Type your review here...")
 
@@ -29,3 +29,4 @@ if st.button("Analyze Sentiment"):
                 st.info(f"Confidence Level: {confidence}")
             else:
                 st.error("Error connecting to API. Is FastAPI running?")
+
