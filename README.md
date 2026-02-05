@@ -90,4 +90,17 @@ cd flipkart-sentiment-mlops
       http://localhost:8501
   ```
   Enter any review text and click Analyze Sentiment to get the prediction.
-  
+Live Demo:
+- Live Demo (UI): http://13.60.136.48:8501  
+- API Docs: http://13.60.136.48:8000/docs 
+
+Note: The demo server may be stopped when not in use. If links are inactive, please contact me to start the server.
+
+  ## 🔗 Live Demo (Free Hosting)
+
+Streamlit App (Hugging Face Spaces):  
+https://huggingface.co/spaces/your-username/flipkart-sentiment-analyzer
+
+> Note: The demo is hosted on Hugging Face Spaces due to large model size.  
+> Production-style API deployment is done on AWS EC2 using FastAPI.
+
