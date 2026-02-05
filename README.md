@@ -4,7 +4,7 @@
 This project is an end-to-end sentiment analysis system for Flipkart product reviews. The goal of this project is to analyze customer reviews and predict whether the sentiment is positive or negative using machine learning. The system includes data preprocessing, model training, real-time inference using FastAPI, and a simple Streamlit web interface for user interaction.
 
 ---
-
+[Live Demo :](https://huggingface.co/spaces/RakshithArutla/flipkart-sentiment-analyzer)
 ## What This Project Does
 
 - Takes a product review as input from the user  
