@@ -38,12 +38,12 @@ This project is an end-to-end sentiment analysis system for Flipkart product rev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 ---
 
-## 🔄 How the System Works (Flow)
+## How the System Works (Flow)
 
 1. The user enters a review in the Streamlit web page.  
 2. Streamlit sends the review text to the FastAPI `/predict` endpoint.  
@@ -54,7 +54,7 @@ This project is an end-to-end sentiment analysis system for Flipkart product rev
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains Flipkart product reviews with ratings and short review summaries.  
 Ratings are converted into sentiment labels:
@@ -65,9 +65,9 @@ Ratings are converted into sentiment labels:
 
   ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 ```bash
 git clone <your-repo-url>
 cd flipkart-sentiment-mlops
@@ -96,10 +96,10 @@ Live Demo:
 
 Note: The demo server may be stopped when not in use. If links are inactive, please contact me to start the server.
 
-  ## 🔗 Live Demo (Free Hosting)
+  ## Live Demo (Free Hosting)
 
 Streamlit App (Hugging Face Spaces):  
-https://huggingface.co/spaces/your-username/flipkart-sentiment-analyzer
+[Live Demo :](https://huggingface.co/spaces/RakshithArutla/flipkart-sentiment-analyzer)
 
 > Note: The demo is hosted on Hugging Face Spaces due to large model size.  
 > Production-style API deployment is done on AWS EC2 using FastAPI.
